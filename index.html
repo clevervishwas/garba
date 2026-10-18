@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0c0613" />
+
+<title>Two Girls, One Garba Circle 🌷</title>
+<meta name="description" content="Kal raat garba mein do ladkiyan mili — ek dark yellow dress mein, ek red kurta aur folded jeans mein. Aur main — 6'1\", pink kurta. Dono ke liye ek chhota sa corner of the internet." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Two Girls, One Garba Circle 🌷" />
+<meta property="og:description" content="Ek ne poori raat daanta. Doosri ne spin mein muh tod diya. Aur main 6'1\" ka giraffe beech mein khada tha." />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌷%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="is-locked">
+
+<!-- ============================ BACKGROUND ============================ -->
+<div class="glow" aria-hidden="true"></div>
+<canvas id="petals" aria-hidden="true"></canvas>
+
+<!-- ============================ OPENING VEIL ============================ -->
+<div class="veil" id="veil">
+  <div class="veil__inner">
+    <p class="veil__kicker">ek chhoti si cheez</p>
+    <h1 class="veil__title">for the two girls<br /><em>from garba night</em></h1>
+    <button class="veil__btn" id="openBtn" type="button">
+      <span class="veil__tulip" aria-hidden="true">🌷</span>
+      <span>tap to open</span>
+    </button>
+    <p class="veil__hint">phone pe best lagega. headphones ke saath aur bhi.</p>
+  </div>
+</div>
+
+<!-- ============================ MAIN ============================ -->
+<main id="main">
+
+  <!-- ---------------------------- HERO ---------------------------- -->
+  <section class="section hero" id="hero">
+    <p class="kicker reveal">garba night · kal raat</p>
+    <h2 class="hero__title reveal" style="--d:.08s">
+      Do ladkiyan.<br />
+      Ek 6'1" ladka.<br />
+      <em>Aur ek dandiya circle.</em>
+    </h2>
+    <p class="hero__sub reveal" style="--d:.16s">
+      Kal raat tum dono se mila. Ek ne saara Vakt Tease Kia. Doosri ne spin mein muh tod diya.
+     
+    </p>
+    <a class="scroll-cue reveal" href="#meet" style="--d:.24s">
+      <span>milte hain teeno se</span>
+      <i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ---------------------------- THE THREE ---------------------------- -->
+  <section class="section meet" id="meet">
+    <p class="kicker reveal">the cast</p>
+    <h2 class="section__title reveal" style="--d:.06s">Hum teen</h2>
+
+    <div class="cards">
+
+      <!-- ================= GIRL 1 — DARK YELLOW ================= -->
+      <article class="card card--haldi reveal" style="--d:.12s" data-girl="haldi">
+        <div class="card__art">
+          <svg class="chibi" viewBox="0 0 240 400" role="img" aria-labelledby="haldiTitle">
+            <title id="haldiTitle">Cartoon girl in a dark yellow chaniya choli spinning with dandiya sticks</title>
+            <defs>
+              <linearGradient id="g1skirt" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#efc23c" />
+                <stop offset="1" stop-color="#a9740f" />
+              </linearGradient>
+              <radialGradient id="g1skin" cx="50%" cy="38%" r="62%">
+                <stop offset="0" stop-color="#fbd9b4" />
+                <stop offset="1" stop-color="#edba90" />
+              </radialGradient>
+            </defs>
+
+            <path d="M120 34c-48 0-62 32-60 78 1 30 6 56 10 74h100c4-18 9-44 10-74 2-46-12-78-60-78z" fill="#2a1a13" />
+            <path d="M170 158c16 26 18 56 10 84" stroke="#2a1a13" stroke-width="18" stroke-linecap="round" fill="none" />
+            <circle cx="180" cy="248" r="10" fill="#e0a92a" />
+
+            <path d="M120 214c-30 0-46 6-52 18l-26 122c22 14 50 20 78 20s56-6 78-20L172 232c-6-12-22-18-52-18z" fill="url(#g1skirt)" />
+            <path d="M44 336c22 12 50 18 76 18s54-6 76-18l4 18c-22 14-50 20-80 20s-58-6-80-20z" fill="#8f5f0c" opacity=".5" />
+            <g fill="#ffe9a8" opacity=".72">
+              <circle cx="96" cy="268" r="4" /><circle cx="120" cy="282" r="4" /><circle cx="146" cy="268" r="4" />
+              <circle cx="86" cy="300" r="4" /><circle cx="120" cy="312" r="4" /><circle cx="156" cy="300" r="4" />
+              <circle cx="76" cy="330" r="4" /><circle cx="120" cy="340" r="4" /><circle cx="166" cy="330" r="4" />
+            </g>
+
+            <path d="M96 168h48c6 0 10 4 10 10v34c0 6-4 10-10 10H96c-6 0-10-4-10-10v-34c0-6 4-10 10-10z" fill="#d9a521" />
+            <path d="M96 168h48c6 0 10 4 10 10v6H86v-6c0-6 4-10 10-10z" fill="#b8801a" />
+
+            <path d="M90 184c-12 8-20 20-24 36" stroke="url(#g1skin)" stroke-width="15" stroke-linecap="round" fill="none" />
+            <path d="M150 184c12 8 20 20 24 36" stroke="url(#g1skin)" stroke-width="15" stroke-linecap="round" fill="none" />
+
+            <g stroke-linecap="round">
+              <line x1="34" y1="176" x2="94" y2="268" stroke="#c98b12" stroke-width="8" />
+              <line x1="34" y1="176" x2="94" y2="268" stroke="#f6cb5c" stroke-width="3" />
+              <line x1="206" y1="176" x2="146" y2="268" stroke="#c98b12" stroke-width="8" />
+              <line x1="206" y1="176" x2="146" y2="268" stroke="#f6cb5c" stroke-width="3" />
+            </g>
+            <circle cx="34" cy="176" r="6" fill="#e2415a" />
+            <circle cx="206" cy="176" r="6" fill="#e2415a" />
+
+            <path d="M108 138h24v28h-24z" fill="#e0a97e" />
+            <ellipse cx="120" cy="98" rx="44" ry="46" fill="url(#g1skin)" />
+
+            <path d="M120 42c-32 0-46 20-48 46 8-16 20-24 34-26 6-1 11 1 14 4 3-3 8-5 14-4 14 2 26 10 34 26-2-26-16-46-48-46z" fill="#2a1a13" />
+
+            <ellipse cx="102" cy="104" rx="6" ry="8" fill="#2b1a15" />
+            <ellipse cx="138" cy="104" rx="6" ry="8" fill="#2b1a15" />
+            <circle cx="104" cy="101" r="2.2" fill="#fff" />
+            <circle cx="140" cy="101" r="2.2" fill="#fff" />
+
+            <path d="M94 88q8-6 16-1" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
+            <path d="M130 87q8-5 16 1" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
+
+            <ellipse cx="86" cy="118" rx="10" ry="5" fill="#e88a8a" opacity=".38" />
+            <ellipse cx="154" cy="118" rx="10" ry="5" fill="#e88a8a" opacity=".38" />
+            <path d="M110 124q10 9 20 0" stroke="#a8484a" stroke-width="3.4" fill="none" stroke-linecap="round" />
+            <circle cx="120" cy="74" r="4" fill="#b3261e" />
+            <circle cx="76" cy="112" r="6" fill="#f0b429" />
+            <circle cx="164" cy="112" r="6" fill="#f0b429" />
+          </svg>
+        </div>
+
+        <div class="card__body">
+          <p class="card__eyebrow">girl no. 1</p>
+          <h3 class="card__name" data-name="haldi">Haldi</h3>
+          <p class="card__tag">the one in dark yellow · ~5'0"</p>
+          <button class="card__toggle" type="button" aria-expanded="false">
+            read the note <span class="card__plus" aria-hidden="true">+</span>
+          </button>
+          <div class="card__note">
+            <div class="card__noteInner">
+              <p>
+                Poori dark yellow dress, aur itni shaant ki poora circle slow lag raha tha.
+                Woh yellow jisme fairy lights bhi jealous ho jaayein.
+              </p>
+              <p>
+                Aur phir woh spin. Haath ghooma aur seedha mere muh pe.
+                Giraya nahi — bas muh tod diya. Aur hansi tumhari.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= GIRL 2 — RED KURTA ================= -->
+      <article class="card card--laal reveal" style="--d:.2s" data-girl="laal">
+        <div class="card__art">
+          <svg class="chibi" viewBox="0 0 240 400" role="img" aria-labelledby="laalTitle">
+            <title id="laalTitle">Cartoon girl in a red kurta and baggy jeans folded at the bottom, smirking</title>
+            <defs>
+              <linearGradient id="g2kurta" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f0526c" />
+                <stop offset="1" stop-color="#bd2942" />
+              </linearGradient>
+              <linearGradient id="g2jeans" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#5b82bb" />
+                <stop offset="1" stop-color="#3a5788" />
+              </linearGradient>
+              <radialGradient id="g2skin" cx="50%" cy="38%" r="62%">
+                <stop offset="0" stop-color="#fbd9b4" />
+                <stop offset="1" stop-color="#edba90" />
+              </radialGradient>
+            </defs>
+
+            <path d="M166 72c28 8 38 32 30 60-5 17-15 26-25 28 9-24 7-52-5-88z" fill="#1f1410" />
+            <path d="M120 36c-42 0-56 28-54 66 1 22 4 40 6 52h96c2-12 5-30 6-52 2-38-12-66-54-66z" fill="#1f1410" />
+
+            <path d="M82 286h32l2 62H78z" fill="url(#g2jeans)" />
+            <path d="M126 286h32l4 62h-38z" fill="url(#g2jeans)" />
+
+            <rect x="75" y="342" width="44" height="18" rx="6" fill="#7aa3dc" />
+            <rect x="122" y="342" width="44" height="18" rx="6" fill="#7aa3dc" />
+            <path d="M79 351h36M126 351h36" stroke="#2d4468" stroke-width="1.6" stroke-dasharray="4 4" opacity=".8" />
+            <path d="M75 342h44v4H75z" fill="#4c6ea6" />
+            <path d="M122 342h44v4h-44z" fill="#4c6ea6" />
+
+            <path d="M96 162h48c10 0 16 6 18 14l10 110c-16 8-38 12-52 12s-36-4-52-12l10-110c2-8 8-14 18-14z" fill="url(#g2kurta)" />
+            <path d="M120 168v128" stroke="#a82439" stroke-width="2.4" opacity=".7" />
+            <g fill="#ffd9df">
+              <circle cx="120" cy="196" r="2.6" /><circle cx="120" cy="222" r="2.6" /><circle cx="120" cy="248" r="2.6" />
+            </g>
+            <path d="M84 276v18M156 276v18" stroke="#a82439" stroke-width="2.4" opacity=".7" />
+
+            <path d="M90 176c-12 12-16 30-14 48" stroke="url(#g2skin)" stroke-width="15" stroke-linecap="round" fill="none" />
+            <circle cx="74" cy="230" r="9" fill="#f0c39a" />
+            <path d="M148 176c20 4 30 18 26 34-2 8-8 12-14 13" stroke="url(#g2skin)" stroke-width="15" stroke-linecap="round" fill="none" />
+            <circle cx="160" cy="228" r="9" fill="#f0c39a" />
+
+            <path d="M108 138h24v28h-24z" fill="#e0a97e" />
+            <ellipse cx="120" cy="98" rx="44" ry="46" fill="url(#g2skin)" />
+
+            <path d="M120 42c-34 0-48 22-48 48 6-18 18-26 32-28 8-1 14 1 18 5 5-6 14-8 24-5 14 3 24 12 28 28 0-26-14-48-54-48z" fill="#1f1410" />
+
+            <ellipse cx="102" cy="104" rx="6" ry="8" fill="#2b1a15" />
+            <ellipse cx="138" cy="105" rx="6" ry="6.5" fill="#2b1a15" />
+            <path d="M132 98q6-3 12 0" stroke="#2b1a15" stroke-width="2.6" fill="none" stroke-linecap="round" />
+            <circle cx="104" cy="101" r="2.2" fill="#fff" />
+            <circle cx="140" cy="102" r="2.2" fill="#fff" />
+
+            <path d="M94 88q8-6 16-1" stroke="#1f1410" stroke-width="3" fill="none" stroke-linecap="round" />
+            <path d="M130 82q9-6 17 2" stroke="#1f1410" stroke-width="3" fill="none" stroke-linecap="round" />
+
+            <ellipse cx="86" cy="118" rx="10" ry="5" fill="#e88a8a" opacity=".38" />
+            <ellipse cx="154" cy="118" rx="10" ry="5" fill="#e88a8a" opacity=".38" />
+            <path d="M108 126q12 5 22-6" stroke="#a8484a" stroke-width="3.4" fill="none" stroke-linecap="round" />
+            <circle cx="76" cy="112" r="5.5" fill="#f0b429" />
+            <circle cx="164" cy="112" r="5.5" fill="#f0b429" />
+          </svg>
+        </div>
+
+        <div class="card__body">
+          <p class="card__eyebrow">girl no. 2</p>
+          <h3 class="card__name" data-name="laal">Laal</h3>
+          <p class="card__tag">red kurta · folded jeans · ~5'0"</p>
+          <button class="card__toggle" type="button" aria-expanded="false">
+            read the note <span class="card__plus" aria-hidden="true">+</span>
+          </button>
+          <div class="card__note">
+            <div class="card__noteInner">
+              <p>
+                Red kurta, jeans, aur jeans itni lambi ki neeche se fold karna pada.
+                Sach kahoon? Mummy ke jeans lag rahe the. Par phir bhi — sabse tez tum hi thi.
+              </p>
+              <p>
+                Aur poori raat meri garba pe taane. Honestly? Woh taane hi raat ka
+                best part thi. Agli baar thoda aur, please.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= BOY — GULABI (me) ================= -->
+     <article class="card card--me card--tall reveal" style="--d:.28s" data-girl="gulabi">
+  <div class="card__art">
+    <svg class="chibi chibi--boy" viewBox="0 0 240 500" role="img" aria-labelledby="gulabiTitle">
+      <title id="gulabiTitle">Cartoon boy in a long pink kurta with full sleeves and light blue jeans, light beard, standing very tall at 6 feet 1 inch</title>
+      <defs>
+        <linearGradient id="boyKurta" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f7a8c4" />
+          <stop offset="1" stop-color="#e07da2" />
+        </linearGradient>
+        <linearGradient id="boyJeans" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#b8d4ec" />
+          <stop offset="1" stop-color="#8fb3d9" />
+        </linearGradient>
+        <radialGradient id="boySkin" cx="50%" cy="38%" r="62%">
+          <stop offset="0" stop-color="#fbd9b4" />
+          <stop offset="1" stop-color="#edba90" />
+        </radialGradient>
+      </defs>
+
+      <!-- ===== LEGS / JEANS ===== -->
+      <path d="M86 300h28v180h-28z" fill="url(#boyJeans)" />
+      <path d="M126 300h28v180h-28z" fill="url(#boyJeans)" />
+
+      <!-- jeans seams + fold lines -->
+      <path d="M100 300v180M140 300v180" stroke="#6d8eb5" stroke-width="1" opacity=".35" />
+      <path d="M92 356h20M92 398h20M92 440h20M132 356h20M132 398h20M132 440h20" stroke="#6d8eb5" stroke-width="1" opacity=".28" />
+
+      <!-- shoes -->
+      <rect x="78" y="478" width="38" height="16" rx="5" fill="#4a3a2a" />
+      <rect x="124" y="478" width="38" height="16" rx="5" fill="#4a3a2a" />
+      <path d="M82 480h30M128 480h30" stroke="#2a1f15" stroke-width="1" opacity=".5" />
+
+      <!-- ===== KURTA (LONG, FULL SLEEVES) ===== -->
+      <!-- body: long kurta reaching mid-thigh -->
+      <path d="M104 96h32c8 0 14 6 16 14l10 200c-16 6-36 10-52 10s-36-4-52-10l10-200c2-8 8-14 16-14z" fill="url(#boyKurta)" />
+      <!-- hem stitching -->
+      <path d="M78 306q42 10 84 0" stroke="#c15a7f" stroke-width="2" fill="none" opacity=".6" />
+      <!-- placket -->
+      <path d="M120 100v212" stroke="#c15a7f" stroke-width="2.2" opacity=".55" />
+      <!-- buttons -->
+      <g fill="#ffe4ee">
+        <circle cx="120" cy="132" r="2.2" /><circle cx="120" cy="168" r="2.2" />
+        <circle cx="120" cy="204" r="2.2" /><circle cx="120" cy="240" r="2.2" />
+        <circle cx="120" cy="276" r="2.2" />
+      </g>
+      <!-- mandarin collar -->
+      <path d="M106 96h28l-3 12h-22z" fill="#e07da2" />
+      <path d="M106 96h28" stroke="#c15a7f" stroke-width="1.6" opacity=".6" />
+
+      <!-- ===== ARMS (full sleeves) ===== -->
+      <!-- left sleeve -->
+      <path d="M102 108c-14 8-22 26-24 52-2 24 2 48 4 72" stroke="url(#boyKurta)" stroke-width="16" stroke-linecap="round" fill="none" />
+      <!-- right sleeve -->
+      <path d="M138 108c14 8 22 26 24 52 2 24-2 48-4 72" stroke="url(#boyKurta)" stroke-width="16" stroke-linecap="round" fill="none" />
+      <!-- cuff bands -->
+      <path d="M81 232h14M145 232h14" stroke="#c15a7f" stroke-width="3" stroke-linecap="round" opacity=".8" />
+
+      <!-- ===== HANDS ===== -->
+      <circle cx="84" cy="252" r="9" fill="#f0c39a" />
+      <circle cx="156" cy="252" r="9" fill="#f0c39a" />
+      <!-- thumb lines -->
+      <path d="M80 249q-3 4 0 7M160 249q3 4 0 7" stroke="#d9a376" stroke-width="1.4" fill="none" opacity=".7" />
+
+      <!-- ===== NECK ===== -->
+      <path d="M110 78h20v22h-20z" fill="#e0a97e" />
+      <path d="M110 88h20" stroke="#d9a376" stroke-width="1" opacity=".5" />
+
+      <!-- ===== FACE ===== -->
+      <ellipse cx="120" cy="56" rx="30" ry="33" fill="url(#boySkin)" />
+
+      <!-- ===== HAIR (Perfectly fitted, masculine short cut) ===== -->
+      <g fill="#2a1a13">
+        <!-- Main base cap (follows the head curve perfectly) -->
+        <path d="M 91 46 C 91 20, 149 20, 149 46 C 146 46, 144 38, 138 30 C 128 22, 112 22, 102 30 C 96 38, 94 46, 91 46 Z" />
+        <!-- Left sweep / quiff for style -->
+        <path d="M 95 36 C 100 24, 115 22, 125 28 C 115 26, 105 30, 97 38 C 96 37, 95 36, 95 36 Z" fill="#241610" />
+        <!-- Temple tapers / Sideburns -->
+        <path d="M 91 46 C 91 52, 92 56, 93 60 L 96 60 C 95 56, 94 52, 94 46 Z" />
+        <path d="M 149 46 C 149 52, 148 56, 147 60 L 144 60 C 145 56, 146 52, 146 46 Z" />
+      </g>
+      <!-- subtle part line -->
+      <path d="M 110 24 L 115 32" stroke="#1a0f0a" stroke-width="1.5" fill="none" opacity=".5" />
+
+      <!-- ===== EARS ===== -->
+      <ellipse cx="90" cy="60" rx="5" ry="7" fill="#f0c39a" />
+      <ellipse cx="150" cy="60" rx="5" ry="7" fill="#f0c39a" />
+
+      <!-- ===== EYES ===== -->
+      <ellipse cx="107" cy="58" rx="4" ry="5" fill="#2b1a15" />
+      <ellipse cx="133" cy="58" rx="4" ry="5" fill="#2b1a15" />
+      <circle cx="108" cy="56" r="1.4" fill="#fff" />
+      <circle cx="134" cy="56" r="1.4" fill="#fff" />
+
+      <!-- ===== BROWS (thicker, masculine) ===== -->
+      <path d="M100 46q7-4 13 0" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
+      <path d="M127 46q7-4 13 0" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
+
+      <!-- ===== NOSE ===== -->
+      <path d="M118 62q2 5 4 5" stroke="#d9a376" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7" />
+
+      <!-- ===== BEARD (SOLID, CONNECTED) ===== -->
+      <!-- jaw + chin beard filling the whole lower face -->
+      <path d="M92 62c0 24 13 34 28 34s28-10 28-34c-2 18-10 30-28 30s-26-12-28-30z" fill="#3a2a1a" opacity=".92" />
+      <!-- cheek connection (fuller beard) -->
+      <path d="M92 62c1 8 2 14 4 19l3-2c-2-5-3-11-4-17z" fill="#3a2a1a" opacity=".92" />
+      <path d="M148 62c-1 8-2 14-4 19l-3-2c2-5 3-11 4-17z" fill="#3a2a1a" opacity=".92" />
+
+      <!-- ===== MUSTACHE (solid, connected) ===== -->
+      <path d="M108 76q6-3 12 0q6-3 12 0q-3 4-12 4t-12-4z" fill="#3a2a1a" opacity=".92" />
+
+      <!-- ===== MOUTH (smile, visible below mustache) ===== -->
+      <path d="M112 86q8 4 16 0" stroke="#6a2028" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    </svg>
+  </div>
+
+  <div class="card__body">
+    <p class="card__eyebrow">and me</p>
+    <h3 class="card__name" data-name="gulabi">Gulabi</h3>
+    <p class="card__tag">6'1" · pink kurta · light blue jeans · light beard</p>
+    <button class="card__toggle" type="button" aria-expanded="false">
+      read the note <span class="card__plus" aria-hidden="true">+</span>
+    </button>
+    <div class="card__note">
+      <div class="card__noteInner">
+        <p>
+          6'1". Us raat circle mein sabse lamba. Giraffe among humans.
+          Garba mujhe aata bhi nahi tha, toh double problem.
+        </p>
+        <p>
+          Laal — tumhare jeans dekh ke mujhe sach mein laga tum mummy ke kapde
+          pehen ke aayi ho. Height ka farak hi itna tha. Sorry, par sach tha.
+        </p>
+        <p>
+          Aur phir bhi — itne lambe hone ke baawajood, tum dono ne mujhe poori
+          raat roast kiya. Red kurta wali, tumhari taane hi sabse zyada yaad hain.
+        </p>
+      </div>
+    </div>
+  </div>
+</article>  
+
+    </div>
+  </section>
+
+  <!-- ---------------------------- INCIDENTS ---------------------------- -->
+  <section class="section incidents" id="incidents">
+    <p class="kicker reveal">raat ke chaar pal</p>
+    <h2 class="section__title reveal" style="--d:.06s">Jo main bhool nahi sakta</h2>
+
+    <div class="incidents__grid">
+
+      <article class="incident incident--roast reveal" style="--d:.1s">
+        <span class="incident__emoji" aria-hidden="true">🔥</span>
+        <h3 class="incident__title">The roasting</h3>
+      
+      </article>
+
+      <article class="incident incident--punch reveal" style="--d:.16s">
+        <span class="incident__emoji" aria-hidden="true">💫</span>
+        <h3 class="incident__title">The spin</h3>
+  
+      </article>
+
+      <article class="incident incident--jeans reveal" style="--d:.22s">
+        <span class="incident__emoji" aria-hidden="true">👖</span>
+        <h3 class="incident__title">Mummy ke jeans?</h3>
+ 
+      </article>
+
+      <article class="incident incident--height reveal" style="--d:.28s">
+        <span class="incident__emoji" aria-hidden="true">📏</span>
+        <h3 class="incident__title">The height</h3>
+   
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ---------------------------- LETTER ---------------------------- -->
+  <section class="section letter" id="letter">
+    <div class="letter__paper reveal">
+      <span class="letter__seal" aria-hidden="true">🌷</span>
+      <p class="letter__hi">
+        Dear <span data-name="haldi">Haldi</span> &amp; <span data-name="laal">Laal</span>,
+      </p>
+      <p>
+        Kal garba mein maine bas teen kaam kiye: pahuncha, khelne ki koshish ki,
+        aur tum dono ne milkar mujhe roast kar diya.
+      </p>
+      <p>
+        Ek dark yellow dress mein thi — calm, glowing, aur ek spin mein mera
+        muh tod diya. Giraya nahi, bas muh tod diya. Doosri red kurta aur
+        mummy ke jeans mein thi, aur usne paanch minute mein mera Garba
+        career khatam kar diya.
+      </p>
+      <p>
+        Aur main? Main beech mein khada tha
+        sabse confused. 
+      </p>
+      <p>
+        Ajeeb baat: poori raat mein sabse zyada wahi taane yaad hain.
+        Red kurta wali — tumhari taane hi raat ka best part thi.
+      </p>
+      <p>
+        Toh yeh website hai. Dandiya step nahi hai — bas woh ek cheez jo
+        mujhe banani aati hai.
+      </p>
+      <p class="letter__sign">
+        — the boy who can't do the 3‑step <span aria-hidden="true">🌷</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ---------------------------- GAME ---------------------------- -->
+  <section class="section game-section" id="play">
+    <p class="kicker reveal">round two</p>
+    <h2 class="section__title reveal" style="--d:.06s">Ab <em>tum</em> try karo pakadna</h2>
+    <p class="section__lead reveal" style="--d:.1s">
+      Left–right drag karo (ya ← → dabao). Tulips pakdo. Teen miss hue toh
+      red kurta wali judge karegi — jo woh karegi hi.
+    </p>
+
+    <div class="game reveal" id="gameWrap" style="--d:.14s">
+      <canvas id="gameCanvas" aria-label="Tulip catching mini game"></canvas>
+
+      <div class="game__hud">
+        <span class="hud__pill">🌷 <b id="score">0</b></span>
+        <span class="hud__pill hud__lives" id="lives" aria-live="polite">❤❤❤</span>
+        <button class="hud__sound" id="soundBtn" type="button" aria-label="Toggle sound" aria-pressed="true">🔊</button>
+      </div>
+
+      <div class="bubble" id="tease" aria-live="polite"></div>
+
+      <div class="game__overlay" id="gameOverlay">
+        <p class="overlay__kicker">dandiya practice</p>
+        <h3 class="overlay__title" id="ovTitle">Mujhse better kar ke dikhao</h3>
+        <p class="overlay__text" id="ovText">Spoiler: tum kar sakte ho.</p>
+        <button class="btn btn--primary" id="playBtn" type="button">Start</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------------- END ---------------------------- -->
+  <section class="section end" id="end">
+    <div class="end__card reveal">
+      <p class="kicker">toh, agli baar</p>
+      <h2 class="end__title">Agli garba,<br /><em>tum dono sikhao mujhe.</em></h2>
+      <p class="end__sub">
+        Tulips main laaunga. Steps tum laana.
+      </p>
+      <div class="end__actions">
+        <button class="btn btn--primary" id="shareBtn" type="button">Share this 🌷</button>
+        <a class="btn btn--ghost" href="#play">Ek aur round</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>made with <span aria-hidden="true">🌷</span> by a boy who still can't do the 3‑step</p>
+  </footer>
+
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
