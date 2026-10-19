@@ -244,20 +244,23 @@
         </div>
       </article>
 
-      <!-- ================= BOY — GULABI (me) ================= -->
-     <article class="card card--me card--tall reveal" style="--d:.28s" data-girl="gulabi">
+<!-- ================= BOY — GULABI (me) ================= -->
+<article class="card card--me card--tall reveal" style="--d:.28s" data-girl="gulabi">
   <div class="card__art">
     <svg class="chibi chibi--boy" viewBox="0 0 240 500" role="img" aria-labelledby="gulabiTitle">
-      <title id="gulabiTitle">Cartoon boy in a long pink kurta with full sleeves and light blue jeans, light beard, standing very tall at 6 feet 1 inch</title>
+      <title id="gulabiTitle">Cartoon boy in a long green kurta with full sleeves and light blue jeans, light beard, standing very tall at 6 feet 1 inch</title>
       <defs>
+        <!-- GREEN KURTA -->
         <linearGradient id="boyKurta" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#f7a8c4" />
-          <stop offset="1" stop-color="#e07da2" />
+          <stop offset="0" stop-color="#78b88a" />
+          <stop offset="1" stop-color="#287747" />
         </linearGradient>
+
         <linearGradient id="boyJeans" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stop-color="#b8d4ec" />
           <stop offset="1" stop-color="#8fb3d9" />
         </linearGradient>
+
         <radialGradient id="boySkin" cx="50%" cy="38%" r="62%">
           <stop offset="0" stop-color="#fbd9b4" />
           <stop offset="1" stop-color="#edba90" />
@@ -280,31 +283,40 @@
       <!-- ===== KURTA (LONG, FULL SLEEVES) ===== -->
       <!-- body: long kurta reaching mid-thigh -->
       <path d="M104 96h32c8 0 14 6 16 14l10 200c-16 6-36 10-52 10s-36-4-52-10l10-200c2-8 8-14 16-14z" fill="url(#boyKurta)" />
+
       <!-- hem stitching -->
-      <path d="M78 306q42 10 84 0" stroke="#c15a7f" stroke-width="2" fill="none" opacity=".6" />
+      <path d="M78 306q42 10 84 0" stroke="#1e6339" stroke-width="2" fill="none" opacity=".6" />
+
       <!-- placket -->
-      <path d="M120 100v212" stroke="#c15a7f" stroke-width="2.2" opacity=".55" />
+      <path d="M120 100v212" stroke="#1e6339" stroke-width="2.2" opacity=".55" />
+
       <!-- buttons -->
-      <g fill="#ffe4ee">
-        <circle cx="120" cy="132" r="2.2" /><circle cx="120" cy="168" r="2.2" />
-        <circle cx="120" cy="204" r="2.2" /><circle cx="120" cy="240" r="2.2" />
+      <g fill="#e3f4e7">
+        <circle cx="120" cy="132" r="2.2" />
+        <circle cx="120" cy="168" r="2.2" />
+        <circle cx="120" cy="204" r="2.2" />
+        <circle cx="120" cy="240" r="2.2" />
         <circle cx="120" cy="276" r="2.2" />
       </g>
+
       <!-- mandarin collar -->
-      <path d="M106 96h28l-3 12h-22z" fill="#e07da2" />
-      <path d="M106 96h28" stroke="#c15a7f" stroke-width="1.6" opacity=".6" />
+      <path d="M106 96h28l-3 12h-22z" fill="#287747" />
+      <path d="M106 96h28" stroke="#1e6339" stroke-width="1.6" opacity=".6" />
 
       <!-- ===== ARMS (full sleeves) ===== -->
       <!-- left sleeve -->
       <path d="M102 108c-14 8-22 26-24 52-2 24 2 48 4 72" stroke="url(#boyKurta)" stroke-width="16" stroke-linecap="round" fill="none" />
+
       <!-- right sleeve -->
       <path d="M138 108c14 8 22 26 24 52 2 24-2 48-4 72" stroke="url(#boyKurta)" stroke-width="16" stroke-linecap="round" fill="none" />
+
       <!-- cuff bands -->
-      <path d="M81 232h14M145 232h14" stroke="#c15a7f" stroke-width="3" stroke-linecap="round" opacity=".8" />
+      <path d="M81 232h14M145 232h14" stroke="#1e6339" stroke-width="3" stroke-linecap="round" opacity=".8" />
 
       <!-- ===== HANDS ===== -->
       <circle cx="84" cy="252" r="9" fill="#f0c39a" />
       <circle cx="156" cy="252" r="9" fill="#f0c39a" />
+
       <!-- thumb lines -->
       <path d="M80 249q-3 4 0 7M160 249q3 4 0 7" stroke="#d9a376" stroke-width="1.4" fill="none" opacity=".7" />
 
@@ -315,18 +327,16 @@
       <!-- ===== FACE ===== -->
       <ellipse cx="120" cy="56" rx="30" ry="33" fill="url(#boySkin)" />
 
-      <!-- ===== HAIR (Perfectly fitted, masculine short cut) ===== -->
+      <!-- ===== HAIR (short masculine cut) ===== -->
       <g fill="#2a1a13">
-        <!-- Main base cap (follows the head curve perfectly) -->
-        <path d="M 91 46 C 91 20, 149 20, 149 46 C 146 46, 144 38, 138 30 C 128 22, 112 22, 102 30 C 96 38, 94 46, 91 46 Z" />
-        <!-- Left sweep / quiff for style -->
-        <path d="M 95 36 C 100 24, 115 22, 125 28 C 115 26, 105 30, 97 38 C 96 37, 95 36, 95 36 Z" fill="#241610" />
-        <!-- Temple tapers / Sideburns -->
-        <path d="M 91 46 C 91 52, 92 56, 93 60 L 96 60 C 95 56, 94 52, 94 46 Z" />
-        <path d="M 149 46 C 149 52, 148 56, 147 60 L 144 60 C 145 56, 146 52, 146 46 Z" />
+        <path d="M91 46C91 20 149 20 149 46C146 46 144 38 138 30C128 22 112 22 102 30C96 38 94 46 91 46Z" />
+        <path d="M95 36C100 24 115 22 125 28C115 26 105 30 97 38C96 37 95 36 95 36Z" fill="#241610" />
+        <path d="M91 46C91 52 92 56 93 60L96 60C95 56 94 52 94 46Z" />
+        <path d="M149 46C149 52 148 56 147 60L144 60C145 56 146 52 146 46Z" />
       </g>
+
       <!-- subtle part line -->
-      <path d="M 110 24 L 115 32" stroke="#1a0f0a" stroke-width="1.5" fill="none" opacity=".5" />
+      <path d="M110 24L115 32" stroke="#1a0f0a" stroke-width="1.5" fill="none" opacity=".5" />
 
       <!-- ===== EARS ===== -->
       <ellipse cx="90" cy="60" rx="5" ry="7" fill="#f0c39a" />
@@ -338,24 +348,22 @@
       <circle cx="108" cy="56" r="1.4" fill="#fff" />
       <circle cx="134" cy="56" r="1.4" fill="#fff" />
 
-      <!-- ===== BROWS (thicker, masculine) ===== -->
+      <!-- ===== BROWS ===== -->
       <path d="M100 46q7-4 13 0" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
       <path d="M127 46q7-4 13 0" stroke="#2a1a13" stroke-width="3" fill="none" stroke-linecap="round" />
 
       <!-- ===== NOSE ===== -->
       <path d="M118 62q2 5 4 5" stroke="#d9a376" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7" />
 
-      <!-- ===== BEARD (SOLID, CONNECTED) ===== -->
-      <!-- jaw + chin beard filling the whole lower face -->
+      <!-- ===== BEARD ===== -->
       <path d="M92 62c0 24 13 34 28 34s28-10 28-34c-2 18-10 30-28 30s-26-12-28-30z" fill="#3a2a1a" opacity=".92" />
-      <!-- cheek connection (fuller beard) -->
       <path d="M92 62c1 8 2 14 4 19l3-2c-2-5-3-11-4-17z" fill="#3a2a1a" opacity=".92" />
       <path d="M148 62c-1 8-2 14-4 19l-3-2c2-5 3-11 4-17z" fill="#3a2a1a" opacity=".92" />
 
-      <!-- ===== MUSTACHE (solid, connected) ===== -->
+      <!-- ===== MUSTACHE ===== -->
       <path d="M108 76q6-3 12 0q6-3 12 0q-3 4-12 4t-12-4z" fill="#3a2a1a" opacity=".92" />
 
-      <!-- ===== MOUTH (smile, visible below mustache) ===== -->
+      <!-- ===== MOUTH ===== -->
       <path d="M112 86q8 4 16 0" stroke="#6a2028" stroke-width="2.2" fill="none" stroke-linecap="round" />
     </svg>
   </div>
@@ -363,16 +371,13 @@
   <div class="card__body">
     <p class="card__eyebrow">and me</p>
     <h3 class="card__name" data-name="gulabi">Gulabi</h3>
-    <p class="card__tag">6'1" · pink kurta · light blue jeans · light beard</p>
+    <p class="card__tag">6'1" · green kurta · light blue jeans · light beard</p>
     <button class="card__toggle" type="button" aria-expanded="false">
       read the note <span class="card__plus" aria-hidden="true">+</span>
     </button>
     <div class="card__note">
       <div class="card__noteInner">
-        <p>
-     
-          Garba mujhe aata bhi nahi tha.
-        </p>
+        <p>Garba mujhe aata bhi nahi tha.</p>
         <p>
           Laal — tumhare jeans dekh ke mujhe sach mein laga tum mummy ke kapde
           pehen ke aayi ho. Height ka farak hi itna tha. Sorry, par sach tha.
@@ -384,7 +389,7 @@
       </div>
     </div>
   </div>
-</article>  
+</article>
 
     </div>
   </section>
